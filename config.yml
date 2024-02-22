@@ -1,5 +1,5 @@
 baseURL: "https://vedikabang.com" 
-title: Prof. Name
+title: Vedika Bang
 paginate: 20
 theme: PaperMod
 
@@ -11,8 +11,8 @@ taxonomies:
 
 menu:
     main:
-        - name: Papers
-          url: papers/
+        - name: Experience
+          url: Experience/
           weight: 1
         - name: Courses
           url: courses/
@@ -25,9 +25,8 @@ menu:
           weight: 4
 
 params:
-    description: "I am a Professor of Subject at the University of Place. My research covers various topics.
-consequat."
-    author: Name
+    description: "Hi! My name is Vedika S. Bang."
+    author: Vedika Bang
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
@@ -50,7 +49,7 @@ consequat."
     math: true
     profileMode:
           enabled: true
-          title: Prof. Namely Name
+          title: Vedika Bang
           subtitle: "I am a Professor of Subject at the University of Place. I work on various topics. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo."
           imageUrl: "picture.jpeg"
           imageWidth: 160
@@ -76,17 +75,9 @@ consequat."
           url: mailto:pascal.michaillat@gmail.com
         - name: Location
           url: location/
-        - name: Office Hours
-          url: officehours/
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
-        - name: YouTube
-          url: https://www.youtube.com/@pmichaillat
         - name: GitHub
           url: https://github.com/pmichaillat
-        - name: Substack
-          url: https://pmichaillat.substack.com
-        - name: Twitter
+        - name: Photography
           url: https://twitter.com/pmichaillat
 
     assets:
