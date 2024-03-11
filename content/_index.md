@@ -62,27 +62,47 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
+        - title: Software Engineer Intern
+          company: Yahoo
           company_url: ''
           company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
-          date_end: ''
+          location: Illinios
+          date_start: '2023-05-22'
+          date_end: '2023-08-11'
           description: |2-
               Responsibilities include:
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
+              * Developed and Implemented cloud migration dashboard using MySQL, ETL pipeline, JavaScript, and Vue.js, enabling real time tracking of Yahoo teams cloud migration progress for senior executives
+              * Engineered an efficient MySQL database and ETL pipeline, increased optimization of SQL queries by 30% for data retrieval, and developed APIs for seamless data collection and integration
+              * Increased senior executives' visibility into Yahoo teams' cloud migration progress by implementing a real-time dashboard, leading to a 25% improvement in tracking efficiency
+        - title: Software Engineer
+          company: Credit Suisse AG
           company_url: ''
           company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          location: India
+          date_start: '2021-07-05'
+          date_end: '2022-07-15'
+          description: |2-
+              Responsibilities include:
+
+              * Led the Data Ingestion Framework using Hadoop and Kafka data pipelines, automated ingestion and processing of large amounts of transactions data reduced latency by 30% through the integration of scheduler and multi-processing in the feature engineering code
+              * Developed the Ownership Enrichment feature to assign input breaks to right department using Apache Spark to improve SLA from 4 days to 1 day
+              * Integrated CI/CD pipeline for Kubernetes deployment of the payment service to reduce cost and increase availability
+              * Formulated and visualized data inconsistencies across multiple data centers and sources (IMATCH, CTC) using Tableau, identifying and resolving 100+ discrepancies, ensuring data accuracy and integrity
+        - title: Software Engineer
+          company: Nice Systems
+          company_url: ''
+          company_logo: org-gc
+          location: India
+          date_start: '2020-08-03'
+          date_end: '2021-07-02'
+          description: |2-
+              Responsibilities include:
+
+              * Implemented evaluation form in Agent Evaluation Portal to assess performance utilizing customer call transcripts, leading to a 30% increase in agent performance
+              * Engineering Lead for the implementation and integration of microservices with AWS
+              * Developed performant backend for Agent Portal on gRPC-based java Spring Boot, Angular and performed extensive code refactoring to optimize server response time by 26%
+              * Tested the application using JUnit, JSystem and Karma that improved applications responsiveness
     design:
       columns: '2'
   - block: accomplishments
@@ -98,32 +118,14 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.coursera.org
+        - certificate_url: https://courses.nvidia.com/certificates/cf570de7698b481da6c5378116aa3586
           date_end: ''
-          date_start: '2021-01-25'
+          date_start: '2023-02-20'
           description: ''
           icon: coursera
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
-          url: ''
-        - certificate_url: https://www.edx.org
-          date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          icon: edx
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
-          description: ''
-          icon: datacamp
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
+          organization: NVIDIA
+          organization_url: https://www.nvidia.com
+          title: Getting started with Deep Learning
           url: ''
     design:
       columns: '2'

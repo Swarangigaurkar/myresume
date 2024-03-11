@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Graduate Student at NC State University
+role: Software Engineer
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -25,23 +25,27 @@ organizations:
     url: https://www.ncsu.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include Automated Software Engineering, Cloud Computing  and Machine Learning.
 
 # Interests to show in About widget
 interests:
+  - Software Engineering
+  - Data Engineering
+  - Site Reliability Engineering
   - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
 
 # Education to show in About widget
 education:
   courses:
     - course: Masters in Computer Science
       institution: NC State University
-      year: 2022
+      year: 2024
     - course: BEng in Computer Engineering
       institution: Pune Institute of Computer Technology
       year: 2020
+    - course: Higher Secondary School
+      institution: Nagpur University
+      year: 2016
     
 
 # Skills
@@ -73,11 +77,6 @@ skills:
         percent: 60
         icon: person-hiking
         icon_pack: fas
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-        icon_pack: fas
       - name: Photography
         description: ''
         percent: 80
@@ -91,22 +90,16 @@ skills:
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-    label: Follow me on Twitter
-    display:
-      header: true
+    link: 'sgaurka@ncsu.edu'
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
     link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/swarangigaurkar
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
+    link: https://www.linkedin.com/in/swarangigaurkar
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
@@ -118,5 +111,5 @@ social:
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Hi there! Originally from Nagpur, India, I'm currently pursuing my Masters at NC State, Raleigh. I enjoy hiking, discovering new Ramen joints, and exploring different genres of music. Hit me up if you want to join me on a hike or get some food recommendations in Raleigh!
 {style="text-align: justify;"}
